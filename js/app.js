@@ -1,8 +1,9 @@
-total = 0
+let total = 0
 
 function limpar() {
     document.getElementById("lista-produtos").innerHTML = "";
     document.querySelector(".carrinho__total").innerHTML = `Total: <span class="texto-azul" id="valor-total">R$0</span>`
+    total = 0
 }
 
 function valortotal() {
